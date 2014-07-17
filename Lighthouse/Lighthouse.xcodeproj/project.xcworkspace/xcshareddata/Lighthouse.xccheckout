@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5EB40CB7-FDB6-458B-990A-1789EAC20F37</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lighthouse</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36B5108E-066F-4E89-9DBB-44F08FEDE8BF</key>
+		<string>https://github.com/juztraceit/LighthouseGitHub.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lighthouse/Lighthouse.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36B5108E-066F-4E89-9DBB-44F08FEDE8BF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/juztraceit/LighthouseGitHub.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36B5108E-066F-4E89-9DBB-44F08FEDE8BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36B5108E-066F-4E89-9DBB-44F08FEDE8BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LighthouseGitHub</string>
+		</dict>
+	</array>
+</dict>
+</plist>
