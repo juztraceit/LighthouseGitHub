@@ -22,6 +22,7 @@
 		24DAD7BB1978633B000E00B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD79A1978633B000E00B7 /* UIKit.framework */; };
 		24DAD7C31978633B000E00B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24DAD7C11978633B000E00B7 /* InfoPlist.strings */; };
 		24DAD7C51978633B000E00B7 /* LighthouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAD7C41978633B000E00B7 /* LighthouseTests.m */; };
+		24DAD7D319786504000E00B7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAD7D219786504000E00B7 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		24DAD7C01978633B000E00B7 /* LighthouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LighthouseTests-Info.plist"; sourceTree = "<group>"; };
 		24DAD7C21978633B000E00B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24DAD7C41978633B000E00B7 /* LighthouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighthouseTests.m; sourceTree = "<group>"; };
+		24DAD7D119786504000E00B7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Reveal/SWRevealViewController.h; sourceTree = "<group>"; };
+		24DAD7D219786504000E00B7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Reveal/SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				24DAD7AB1978633B000E00B7 /* Main_iPad.storyboard */,
 				24DAD7AE1978633B000E00B7 /* ViewController.h */,
 				24DAD7AF1978633B000E00B7 /* ViewController.m */,
+				24DAD7D019786459000E00B7 /* ViewControllers */,
+				24DAD7CF1978644B000E00B7 /* Models */,
 				24DAD7B11978633B000E00B7 /* Images.xcassets */,
 				24DAD79D1978633B000E00B7 /* Supporting Files */,
 			);
@@ -153,6 +158,30 @@
 				24DAD7C11978633B000E00B7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24DAD7CE19786432000E00B7 /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				24DAD7D119786504000E00B7 /* SWRevealViewController.h */,
+				24DAD7D219786504000E00B7 /* SWRevealViewController.m */,
+			);
+			name = Reveal;
+			sourceTree = "<group>";
+		};
+		24DAD7CF1978644B000E00B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		24DAD7D019786459000E00B7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				24DAD7CE19786432000E00B7 /* Reveal */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +285,7 @@
 				24DAD7B01978633B000E00B7 /* ViewController.m in Sources */,
 				24DAD7A71978633B000E00B7 /* AppDelegate.m in Sources */,
 				24DAD7A31978633B000E00B7 /* main.m in Sources */,
+				24DAD7D319786504000E00B7 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
