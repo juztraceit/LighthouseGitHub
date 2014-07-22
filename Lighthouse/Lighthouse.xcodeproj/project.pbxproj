@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B90F5E197DEA6C0085CBB6 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F5D197DEA6C0085CBB6 /* MenuViewController.m */; };
+		24B90F62197DF44F0085CBB6 /* SettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F61197DF44F0085CBB6 /* SettingsModel.m */; };
+		24B90F66197DF4AE0085CBB6 /* LastEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F65197DF4AE0085CBB6 /* LastEventsViewController.m */; };
+		24B90F69197DF4C10085CBB6 /* LastEventsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F68197DF4C10085CBB6 /* LastEventsModel.m */; };
+		24B90F6D197DF4F90085CBB6 /* LastLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F6C197DF4F90085CBB6 /* LastLoadModel.m */; };
+		24B90F70197DF50B0085CBB6 /* LastLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F6F197DF50B0085CBB6 /* LastLoadViewController.m */; };
+		24B90F74197DF53B0085CBB6 /* UnassignedSensorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F73197DF53B0085CBB6 /* UnassignedSensorsViewController.m */; };
+		24B90F77197DF5510085CBB6 /* UnassignedSensorsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F76197DF5510085CBB6 /* UnassignedSensorsModel.m */; };
+		24B90F7B197DF5750085CBB6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F7A197DF5750085CBB6 /* MapViewController.m */; };
+		24B90F7E197DF5860085CBB6 /* MapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F7D197DF5860085CBB6 /* MapModel.m */; };
 		24DAD7971978633B000E00B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD7961978633B000E00B7 /* Foundation.framework */; };
 		24DAD7991978633B000E00B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD7981978633B000E00B7 /* CoreGraphics.framework */; };
 		24DAD79B1978633B000E00B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD79A1978633B000E00B7 /* UIKit.framework */; };
@@ -15,7 +25,6 @@
 		24DAD7A71978633B000E00B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAD7A61978633B000E00B7 /* AppDelegate.m */; };
 		24DAD7AA1978633B000E00B7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DAD7A81978633B000E00B7 /* Main_iPhone.storyboard */; };
 		24DAD7AD1978633B000E00B7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DAD7AB1978633B000E00B7 /* Main_iPad.storyboard */; };
-		24DAD7B01978633B000E00B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAD7AF1978633B000E00B7 /* ViewController.m */; };
 		24DAD7B21978633B000E00B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DAD7B11978633B000E00B7 /* Images.xcassets */; };
 		24DAD7B91978633B000E00B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD7B81978633B000E00B7 /* XCTest.framework */; };
 		24DAD7BA1978633B000E00B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD7961978633B000E00B7 /* Foundation.framework */; };
@@ -36,6 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B90F5C197DEA6C0085CBB6 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		24B90F5D197DEA6C0085CBB6 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		24B90F60197DF44F0085CBB6 /* SettingsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsModel.h; sourceTree = "<group>"; };
+		24B90F61197DF44F0085CBB6 /* SettingsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsModel.m; sourceTree = "<group>"; };
+		24B90F64197DF4AE0085CBB6 /* LastEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastEventsViewController.h; sourceTree = "<group>"; };
+		24B90F65197DF4AE0085CBB6 /* LastEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastEventsViewController.m; sourceTree = "<group>"; };
+		24B90F67197DF4C10085CBB6 /* LastEventsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastEventsModel.h; sourceTree = "<group>"; };
+		24B90F68197DF4C10085CBB6 /* LastEventsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastEventsModel.m; sourceTree = "<group>"; };
+		24B90F6B197DF4F90085CBB6 /* LastLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastLoadModel.h; sourceTree = "<group>"; };
+		24B90F6C197DF4F90085CBB6 /* LastLoadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastLoadModel.m; sourceTree = "<group>"; };
+		24B90F6E197DF50B0085CBB6 /* LastLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastLoadViewController.h; sourceTree = "<group>"; };
+		24B90F6F197DF50B0085CBB6 /* LastLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastLoadViewController.m; sourceTree = "<group>"; };
+		24B90F72197DF53B0085CBB6 /* UnassignedSensorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnassignedSensorsViewController.h; sourceTree = "<group>"; };
+		24B90F73197DF53B0085CBB6 /* UnassignedSensorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnassignedSensorsViewController.m; sourceTree = "<group>"; };
+		24B90F75197DF5510085CBB6 /* UnassignedSensorsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnassignedSensorsModel.h; sourceTree = "<group>"; };
+		24B90F76197DF5510085CBB6 /* UnassignedSensorsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnassignedSensorsModel.m; sourceTree = "<group>"; };
+		24B90F79197DF5750085CBB6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		24B90F7A197DF5750085CBB6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		24B90F7C197DF5860085CBB6 /* MapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapModel.h; sourceTree = "<group>"; };
+		24B90F7D197DF5860085CBB6 /* MapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapModel.m; sourceTree = "<group>"; };
 		24DAD7931978633B000E00B7 /* Lighthouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighthouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DAD7961978633B000E00B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24DAD7981978633B000E00B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,8 +77,6 @@
 		24DAD7A61978633B000E00B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24DAD7A91978633B000E00B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		24DAD7AC1978633B000E00B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		24DAD7AE1978633B000E00B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24DAD7AF1978633B000E00B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24DAD7B11978633B000E00B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24DAD7B71978633B000E00B7 /* LighthouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighthouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DAD7B81978633B000E00B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -84,6 +111,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B90F5F197DF4290085CBB6 /* SettingsMenu */ = {
+			isa = PBXGroup;
+			children = (
+				24B90F5C197DEA6C0085CBB6 /* MenuViewController.h */,
+				24B90F5D197DEA6C0085CBB6 /* MenuViewController.m */,
+				24B90F60197DF44F0085CBB6 /* SettingsModel.h */,
+				24B90F61197DF44F0085CBB6 /* SettingsModel.m */,
+			);
+			name = SettingsMenu;
+			sourceTree = "<group>";
+		};
+		24B90F63197DF4950085CBB6 /* LastEvents */ = {
+			isa = PBXGroup;
+			children = (
+				24B90F64197DF4AE0085CBB6 /* LastEventsViewController.h */,
+				24B90F65197DF4AE0085CBB6 /* LastEventsViewController.m */,
+				24B90F67197DF4C10085CBB6 /* LastEventsModel.h */,
+				24B90F68197DF4C10085CBB6 /* LastEventsModel.m */,
+			);
+			name = LastEvents;
+			sourceTree = "<group>";
+		};
+		24B90F6A197DF4E20085CBB6 /* LastLoadReading */ = {
+			isa = PBXGroup;
+			children = (
+				24B90F6B197DF4F90085CBB6 /* LastLoadModel.h */,
+				24B90F6C197DF4F90085CBB6 /* LastLoadModel.m */,
+				24B90F6E197DF50B0085CBB6 /* LastLoadViewController.h */,
+				24B90F6F197DF50B0085CBB6 /* LastLoadViewController.m */,
+			);
+			name = LastLoadReading;
+			sourceTree = "<group>";
+		};
+		24B90F71197DF51D0085CBB6 /* UnassignedSensors */ = {
+			isa = PBXGroup;
+			children = (
+				24B90F72197DF53B0085CBB6 /* UnassignedSensorsViewController.h */,
+				24B90F73197DF53B0085CBB6 /* UnassignedSensorsViewController.m */,
+				24B90F75197DF5510085CBB6 /* UnassignedSensorsModel.h */,
+				24B90F76197DF5510085CBB6 /* UnassignedSensorsModel.m */,
+			);
+			name = UnassignedSensors;
+			sourceTree = "<group>";
+		};
+		24B90F78197DF5580085CBB6 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				24B90F79197DF5750085CBB6 /* MapViewController.h */,
+				24B90F7A197DF5750085CBB6 /* MapViewController.m */,
+				24B90F7C197DF5860085CBB6 /* MapModel.h */,
+				24B90F7D197DF5860085CBB6 /* MapModel.m */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
 		24DAD78A1978633B000E00B7 = {
 			isa = PBXGroup;
 			children = (
@@ -117,14 +199,16 @@
 		24DAD79C1978633B000E00B7 /* Lighthouse */ = {
 			isa = PBXGroup;
 			children = (
+				24B90F78197DF5580085CBB6 /* MapView */,
+				24B90F71197DF51D0085CBB6 /* UnassignedSensors */,
+				24B90F6A197DF4E20085CBB6 /* LastLoadReading */,
+				24B90F63197DF4950085CBB6 /* LastEvents */,
+				24DAD7CE19786432000E00B7 /* Reveal */,
+				24B90F5F197DF4290085CBB6 /* SettingsMenu */,
 				24DAD7A51978633B000E00B7 /* AppDelegate.h */,
 				24DAD7A61978633B000E00B7 /* AppDelegate.m */,
 				24DAD7A81978633B000E00B7 /* Main_iPhone.storyboard */,
 				24DAD7AB1978633B000E00B7 /* Main_iPad.storyboard */,
-				24DAD7AE1978633B000E00B7 /* ViewController.h */,
-				24DAD7AF1978633B000E00B7 /* ViewController.m */,
-				24DAD7D019786459000E00B7 /* ViewControllers */,
-				24DAD7CF1978644B000E00B7 /* Models */,
 				24DAD7B11978633B000E00B7 /* Images.xcassets */,
 				24DAD79D1978633B000E00B7 /* Supporting Files */,
 			);
@@ -167,21 +251,6 @@
 				24DAD7D219786504000E00B7 /* SWRevealViewController.m */,
 			);
 			name = Reveal;
-			sourceTree = "<group>";
-		};
-		24DAD7CF1978644B000E00B7 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		24DAD7D019786459000E00B7 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				24DAD7CE19786432000E00B7 /* Reveal */,
-			);
-			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,10 +351,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DAD7B01978633B000E00B7 /* ViewController.m in Sources */,
+				24B90F62197DF44F0085CBB6 /* SettingsModel.m in Sources */,
 				24DAD7A71978633B000E00B7 /* AppDelegate.m in Sources */,
+				24B90F66197DF4AE0085CBB6 /* LastEventsViewController.m in Sources */,
+				24B90F6D197DF4F90085CBB6 /* LastLoadModel.m in Sources */,
 				24DAD7A31978633B000E00B7 /* main.m in Sources */,
+				24B90F70197DF50B0085CBB6 /* LastLoadViewController.m in Sources */,
+				24B90F7B197DF5750085CBB6 /* MapViewController.m in Sources */,
+				24B90F7E197DF5860085CBB6 /* MapModel.m in Sources */,
 				24DAD7D319786504000E00B7 /* SWRevealViewController.m in Sources */,
+				24B90F69197DF4C10085CBB6 /* LastEventsModel.m in Sources */,
+				24B90F74197DF53B0085CBB6 /* UnassignedSensorsViewController.m in Sources */,
+				24B90F77197DF5510085CBB6 /* UnassignedSensorsModel.m in Sources */,
+				24B90F5E197DEA6C0085CBB6 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +578,7 @@
 				24DAD7CA1978633B000E00B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24DAD7CB1978633B000E00B7 /* Build configuration list for PBXNativeTarget "LighthouseTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +587,7 @@
 				24DAD7CD1978633B000E00B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
