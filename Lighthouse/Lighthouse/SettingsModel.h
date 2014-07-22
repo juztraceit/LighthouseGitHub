@@ -10,4 +10,7 @@
 
 @interface SettingsModel : NSObject
 
+-(NSString *) sha1:(NSString*)input;
+-(BOOL) login:(NSString*)username password:(NSString *)password server:(NSString *)server;
+
 @end

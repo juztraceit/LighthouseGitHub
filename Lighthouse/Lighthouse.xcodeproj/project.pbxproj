@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24B90F5E197DEA6C0085CBB6 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F5D197DEA6C0085CBB6 /* MenuViewController.m */; };
+		24B90F5E197DEA6C0085CBB6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F5D197DEA6C0085CBB6 /* SettingsViewController.m */; };
 		24B90F62197DF44F0085CBB6 /* SettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F61197DF44F0085CBB6 /* SettingsModel.m */; };
 		24B90F66197DF4AE0085CBB6 /* LastEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F65197DF4AE0085CBB6 /* LastEventsViewController.m */; };
 		24B90F69197DF4C10085CBB6 /* LastEventsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F68197DF4C10085CBB6 /* LastEventsModel.m */; };
@@ -17,6 +17,8 @@
 		24B90F77197DF5510085CBB6 /* UnassignedSensorsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F76197DF5510085CBB6 /* UnassignedSensorsModel.m */; };
 		24B90F7B197DF5750085CBB6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F7A197DF5750085CBB6 /* MapViewController.m */; };
 		24B90F7E197DF5860085CBB6 /* MapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F7D197DF5860085CBB6 /* MapModel.m */; };
+		24B90F82197DF6150085CBB6 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F81197DF6150085CBB6 /* MenuModel.m */; };
+		24B90F85197DF68A0085CBB6 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B90F84197DF68A0085CBB6 /* MenuViewController.m */; };
 		24DAD7971978633B000E00B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD7961978633B000E00B7 /* Foundation.framework */; };
 		24DAD7991978633B000E00B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD7981978633B000E00B7 /* CoreGraphics.framework */; };
 		24DAD79B1978633B000E00B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD79A1978633B000E00B7 /* UIKit.framework */; };
@@ -45,8 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24B90F5C197DEA6C0085CBB6 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
-		24B90F5D197DEA6C0085CBB6 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		24B90F5C197DEA6C0085CBB6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		24B90F5D197DEA6C0085CBB6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		24B90F60197DF44F0085CBB6 /* SettingsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsModel.h; sourceTree = "<group>"; };
 		24B90F61197DF44F0085CBB6 /* SettingsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsModel.m; sourceTree = "<group>"; };
 		24B90F64197DF4AE0085CBB6 /* LastEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastEventsViewController.h; sourceTree = "<group>"; };
@@ -65,6 +67,10 @@
 		24B90F7A197DF5750085CBB6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		24B90F7C197DF5860085CBB6 /* MapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapModel.h; sourceTree = "<group>"; };
 		24B90F7D197DF5860085CBB6 /* MapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapModel.m; sourceTree = "<group>"; };
+		24B90F80197DF6150085CBB6 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
+		24B90F81197DF6150085CBB6 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
+		24B90F83197DF68A0085CBB6 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		24B90F84197DF68A0085CBB6 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		24DAD7931978633B000E00B7 /* Lighthouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighthouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DAD7961978633B000E00B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24DAD7981978633B000E00B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,8 +120,8 @@
 		24B90F5F197DF4290085CBB6 /* SettingsMenu */ = {
 			isa = PBXGroup;
 			children = (
-				24B90F5C197DEA6C0085CBB6 /* MenuViewController.h */,
-				24B90F5D197DEA6C0085CBB6 /* MenuViewController.m */,
+				24B90F5C197DEA6C0085CBB6 /* SettingsViewController.h */,
+				24B90F5D197DEA6C0085CBB6 /* SettingsViewController.m */,
 				24B90F60197DF44F0085CBB6 /* SettingsModel.h */,
 				24B90F61197DF44F0085CBB6 /* SettingsModel.m */,
 			);
@@ -166,6 +172,17 @@
 			name = MapView;
 			sourceTree = "<group>";
 		};
+		24B90F7F197DF6010085CBB6 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				24B90F80197DF6150085CBB6 /* MenuModel.h */,
+				24B90F81197DF6150085CBB6 /* MenuModel.m */,
+				24B90F83197DF68A0085CBB6 /* MenuViewController.h */,
+				24B90F84197DF68A0085CBB6 /* MenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 		24DAD78A1978633B000E00B7 = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +216,7 @@
 		24DAD79C1978633B000E00B7 /* Lighthouse */ = {
 			isa = PBXGroup;
 			children = (
+				24B90F7F197DF6010085CBB6 /* Menu */,
 				24B90F78197DF5580085CBB6 /* MapView */,
 				24B90F71197DF51D0085CBB6 /* UnassignedSensors */,
 				24B90F6A197DF4E20085CBB6 /* LastLoadReading */,
@@ -355,15 +373,17 @@
 				24DAD7A71978633B000E00B7 /* AppDelegate.m in Sources */,
 				24B90F66197DF4AE0085CBB6 /* LastEventsViewController.m in Sources */,
 				24B90F6D197DF4F90085CBB6 /* LastLoadModel.m in Sources */,
+				24B90F85197DF68A0085CBB6 /* MenuViewController.m in Sources */,
 				24DAD7A31978633B000E00B7 /* main.m in Sources */,
 				24B90F70197DF50B0085CBB6 /* LastLoadViewController.m in Sources */,
 				24B90F7B197DF5750085CBB6 /* MapViewController.m in Sources */,
 				24B90F7E197DF5860085CBB6 /* MapModel.m in Sources */,
+				24B90F82197DF6150085CBB6 /* MenuModel.m in Sources */,
 				24DAD7D319786504000E00B7 /* SWRevealViewController.m in Sources */,
 				24B90F69197DF4C10085CBB6 /* LastEventsModel.m in Sources */,
 				24B90F74197DF53B0085CBB6 /* UnassignedSensorsViewController.m in Sources */,
 				24B90F77197DF5510085CBB6 /* UnassignedSensorsModel.m in Sources */,
-				24B90F5E197DEA6C0085CBB6 /* MenuViewController.m in Sources */,
+				24B90F5E197DEA6C0085CBB6 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
